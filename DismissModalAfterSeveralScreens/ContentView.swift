@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var shouldPresentOnboarding = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Text("ContentView")
+        .fullScreenCover(isPresented: $shouldPresentOnboarding) {
+            OnboardingScreen(shouldPresentOnboarding: $shouldPresentOnboarding)
         }
-        .padding()
     }
 }
 

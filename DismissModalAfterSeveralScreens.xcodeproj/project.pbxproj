@@ -11,6 +11,8 @@
 		7339D3012BF7811000CAD936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339D3002BF7811000CAD936 /* ContentView.swift */; };
 		7339D3032BF7811100CAD936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7339D3022BF7811100CAD936 /* Assets.xcassets */; };
 		7339D3062BF7811100CAD936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7339D3052BF7811100CAD936 /* Preview Assets.xcassets */; };
+		7339D30D2BF7817D00CAD936 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339D30C2BF7817D00CAD936 /* OnboardingScreen.swift */; };
+		7339D30F2BF7818D00CAD936 /* Paywall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339D30E2BF7818D00CAD936 /* Paywall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7339D3002BF7811000CAD936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7339D3022BF7811100CAD936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7339D3052BF7811100CAD936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7339D30C2BF7817D00CAD936 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		7339D30E2BF7818D00CAD936 /* Paywall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paywall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				7339D2FE2BF7811000CAD936 /* DismissModalAfterSeveralScreensApp.swift */,
 				7339D3002BF7811000CAD936 /* ContentView.swift */,
+				7339D30C2BF7817D00CAD936 /* OnboardingScreen.swift */,
+				7339D30E2BF7818D00CAD936 /* Paywall.swift */,
 				7339D3022BF7811100CAD936 /* Assets.xcassets */,
 				7339D3042BF7811100CAD936 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				7339D3012BF7811000CAD936 /* ContentView.swift in Sources */,
 				7339D2FF2BF7811000CAD936 /* DismissModalAfterSeveralScreensApp.swift in Sources */,
+				7339D30F2BF7818D00CAD936 /* Paywall.swift in Sources */,
+				7339D30D2BF7817D00CAD936 /* OnboardingScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
